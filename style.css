@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;700&family=Raleway:wght@400;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav style */
+nav {
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 86px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.logo h3 {
+    margin: 0px;
+    padding-left: 20px;
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.logo .g {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.follow-tag {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px;
+}
+
+.follow-tag span {
+    padding-right: 16px;
+
+}
+
+/* BANNER SECTION */
+.banner-section {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.goat-section {
+    background-image: url("images/Group\ 14.png");
+    fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+    background-repeat: no-repeat;
+    max-width: 901px;
+    padding: 140px 240px;
+}
+
+.goat-section .play {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.goat-section .goat {
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+.goat-section p {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.banner-img {
+    /* width: 100%; */
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.primary-btn {
+    color: #FFF;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+}
+
+.secondary-btn {
+    border: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+/* online-game-section */
+.online-game-section,
+.instant-play h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.online-game-section span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game-section,
+.instant-play .description {
+
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.online-games-video-section p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 320px;
+}
+
+.online-games-video-section {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 45px;
+}
+
+.instant-play {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+
+.instant-play .play-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-play .play-description {
+    max-width: 350px;
+}
+
+.play-img .main-img {
+    position: relative;
+    top: 80px;
+    left: 170px;
+
+}
+
+.gaming-btn-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 1350px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.name-img {
+    display: flex;
+    max-width: 330px;
+    padding: 10px 20px;
+    background-color: #FFF;
+
+}
+
+.name-img h4 {
+    margin-left: 16px;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.name-img:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    border: 1px solid pink;
+}
+
+/* footer style */
+footer {
+    background-color: #0B0223;
+    padding-bottom: 120px;
+    margin-top: 120px;
+}
+
+.amer {
+    color: #FFF;
+}
+
+footer .logo {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.our-service {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.our-social-media{
+   text-align: center;
+}
+.our-social-media a{
+    margin-left: 20px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+/* responsive */
+@media screen and (max-width: 576px) {
+    header {
+       justify-content: c;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    nav .logo {
+        margin: 0px auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+    }
+
+    nav ul li {
+        margin-left: 0px;
+    }
+
+    .follow-tag {
+        align-items: center;
+    }
+
+    nav ul li {
+        padding-top: 20px;
+    }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .banner-section img {
+        .banner-img {
+            /* width: 10px; */
+        }
+    }
+    .goat-section{
+        margin: 0px auto;
+    }
+    .online-games-video-section {
+       flex-direction: column;
+    }
+    .online-games-video-section p{
+        margin: 0px auto;
+    }
+    .instant-play{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .play-description{
+        margin: 0px auto;
+    }
+    .gaming-btn-section{
+        max-width: 850px;
+    }
+}
